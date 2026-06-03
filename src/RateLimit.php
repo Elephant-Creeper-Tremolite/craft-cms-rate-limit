@@ -7,7 +7,7 @@ use yii\web\HttpException;
 
 class RateLimit extends \craft\base\Plugin
 {
-    public bool $hasCpSettings = true;
+    public $hasCpSettings = true;
 
     public function init()
     {
